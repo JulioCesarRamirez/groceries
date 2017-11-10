@@ -5,18 +5,11 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 858B833A18CA111C00AB12DE /* InfoPlist.strings */; };
 		CD45EE7C18DC2D5800FB50C0 /* app in Resources */ = {isa = PBXBuildFile; fileRef = CD45EE7A18DC2D5800FB50C0 /* app */; };
 		CD62955D1BB2678900AE3A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62955C1BB2678900AE3A93 /* main.m */; };
-		B9F1AE6D9BA94069901CBE5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBED0768F645486D8B8C87A0 /* Assets.xcassets */; };
-		201741423E5E46D4A4096D7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DECA4ADB19D4473BAC1246CD /* LaunchScreen.storyboard */; };
-		E7F7A90D826C4138A46DF109 /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = B1BDE6D8381544AE873ED10B /* build.xcconfig */; };
-		64CE6889CBA74EADB3121536 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D688005BC7BC4A118F598796 /* logo.png */; };
-		60E25FB44F1A44AEBF473A61 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B83D4DC181045ACBF2EF198 /* logo@2x.png */; };
-		580D7B4B231E4F0E9CB942F8 /* logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A11FA44FB84E48DFA9621660 /* logo@3x.png */; };
-		F437782B94154AB7B26F63BC /* TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60A925A142434D57B3A0F737 /* TNSWidgets.framework */; };
-		DB72B1606C0B4F18A276D817 /* TNSWidgets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 60A925A142434D57B3A0F737 /* TNSWidgets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +19,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				DB72B1606C0B4F18A276D817 /* TNSWidgets.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -34,23 +26,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		858B832E18CA111C00AB12DE /* Groceries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Groceries.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		858B833918CA111C00AB12DE /* Groceries-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Groceries-Info.plist"; sourceTree = "<group>"; };
+		858B832E18CA111C00AB12DE /* groceries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = groceries.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		858B833918CA111C00AB12DE /* groceries-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "groceries-Info.plist"; sourceTree = "<group>"; };
 		858B833B18CA111C00AB12DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		858B833F18CA111C00AB12DE /* Groceries-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Groceries-Prefix.pch"; sourceTree = "<group>"; };
-		858B843318CA22B800AB12DE /* Groceries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Groceries.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		858B833F18CA111C00AB12DE /* groceries-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "groceries-Prefix.pch"; sourceTree = "<group>"; };
+		858B843318CA22B800AB12DE /* groceries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = groceries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD45EE7A18DC2D5800FB50C0 /* app */ = {isa = PBXFileReference; lastKnownFileType = folder; path = app; sourceTree = "<group>"; };
 		CD62955C1BB2678900AE3A93 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = internal/main.m; sourceTree = SOURCE_ROOT; };
 		CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-debug.xcconfig"; sourceTree = "<group>"; };
 		CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-release.xcconfig"; sourceTree = "<group>"; };
 		CDF4743E1BA4855C0087EA85 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
-		CBED0768F645486D8B8C87A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = Assets.xcassets; path = "Groceries/Resources/Assets.xcassets"; sourceTree = "<group>"; fileEncoding = 4; };
-		DECA4ADB19D4473BAC1246CD /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = LaunchScreen.storyboard; path = "Groceries/Resources/LaunchScreen.storyboard"; sourceTree = "<group>"; fileEncoding = 4; };
-		B1BDE6D8381544AE873ED10B /* build.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = build.xcconfig; path = "Groceries/Resources/build.xcconfig"; sourceTree = "<group>"; fileEncoding = 4; };
-		D688005BC7BC4A118F598796 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = "Groceries/Resources/logo.png"; sourceTree = "<group>"; };
-		7B83D4DC181045ACBF2EF198 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo@2x.png"; path = "Groceries/Resources/logo@2x.png"; sourceTree = "<group>"; };
-		A11FA44FB84E48DFA9621660 /* logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo@3x.png"; path = "Groceries/Resources/logo@3x.png"; sourceTree = "<group>"; };
-		60A925A142434D57B3A0F737 /* TNSWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSWidgets.framework; path = "$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +43,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F437782B94154AB7B26F63BC /* TNSWidgets.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,7 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				E070579D1B39A9D000214BF1 /* Resources */,
-				858B833718CA111C00AB12DE /* Groceries */,
+				858B833718CA111C00AB12DE /* groceries */,
 				858B833018CA111C00AB12DE /* Frameworks */,
 				858B832F18CA111C00AB12DE /* Products */,
 			);
@@ -78,8 +62,8 @@
 		858B832F18CA111C00AB12DE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				858B832E18CA111C00AB12DE /* Groceries.app */,
-				858B843318CA22B800AB12DE /* Groceries.app */,
+				858B832E18CA111C00AB12DE /* groceries.app */,
+				858B843318CA22B800AB12DE /* groceries.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,18 +71,17 @@
 		858B833018CA111C00AB12DE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				60A925A142434D57B3A0F737 /* TNSWidgets.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		858B833718CA111C00AB12DE /* Groceries */ = {
+		858B833718CA111C00AB12DE /* groceries */ = {
 			isa = PBXGroup;
 			children = (
 				CD45EE7A18DC2D5800FB50C0 /* app */,
 				858B833818CA111C00AB12DE /* Supporting Files */,
 			);
-			path = Groceries;
+			path = groceries;
 			sourceTree = "<group>";
 		};
 		858B833818CA111C00AB12DE /* Supporting Files */ = {
@@ -107,10 +90,10 @@
 				CDF4743E1BA4855C0087EA85 /* build.xcconfig */,
 				CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */,
 				CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */,
-				858B833918CA111C00AB12DE /* Groceries-Info.plist */,
+				858B833918CA111C00AB12DE /* groceries-Info.plist */,
 				858B833A18CA111C00AB12DE /* InfoPlist.strings */,
 				CD62955C1BB2678900AE3A93 /* main.m */,
-				858B833F18CA111C00AB12DE /* Groceries-Prefix.pch */,
+				858B833F18CA111C00AB12DE /* groceries-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -118,12 +101,6 @@
 		E070579D1B39A9D000214BF1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CBED0768F645486D8B8C87A0 /* Assets.xcassets */,
-				DECA4ADB19D4473BAC1246CD /* LaunchScreen.storyboard */,
-				B1BDE6D8381544AE873ED10B /* build.xcconfig */,
-				D688005BC7BC4A118F598796 /* logo.png */,
-				7B83D4DC181045ACBF2EF198 /* logo@2x.png */,
-				A11FA44FB84E48DFA9621660 /* logo@3x.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -131,9 +108,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		858B83EF18CA22B800AB12DE /* Groceries */ = {
+		858B83EF18CA22B800AB12DE /* groceries */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 858B843018CA22B800AB12DE /* Build configuration list for PBXNativeTarget "Groceries" */;
+			buildConfigurationList = 858B843018CA22B800AB12DE /* Build configuration list for PBXNativeTarget "groceries" */;
 			buildPhases = (
 				C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */,
 				858B83F218CA22B800AB12DE /* Sources */,
@@ -147,9 +124,9 @@
 			);
 			dependencies = (
 			);
-			name = Groceries;
+			name = groceries;
 			productName = JDBridgeApp;
-			productReference = 858B843318CA22B800AB12DE /* Groceries.app */;
+			productReference = 858B843318CA22B800AB12DE /* groceries.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -159,10 +136,10 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = TNS;
-				LastUpgradeCheck = 500;
+				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Telerik;
 			};
-			buildConfigurationList = 858B832918CA111C00AB12DE /* Build configuration list for PBXProject "Groceries" */;
+			buildConfigurationList = 858B832918CA111C00AB12DE /* Build configuration list for PBXProject "groceries" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -174,7 +151,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				858B83EF18CA22B800AB12DE /* Groceries */,
+				858B83EF18CA22B800AB12DE /* groceries */,
 			);
 		};
 /* End PBXProject section */
@@ -186,12 +163,6 @@
 			files = (
 				CD45EE7C18DC2D5800FB50C0 /* app in Resources */,
 				858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */,
-				B9F1AE6D9BA94069901CBE5D /* Assets.xcassets in Resources */,
-				201741423E5E46D4A4096D7F /* LaunchScreen.storyboard in Resources */,
-				E7F7A90D826C4138A46DF109 /* build.xcconfig in Resources */,
-				64CE6889CBA74EADB3121536 /* logo.png in Resources */,
-				60E25FB44F1A44AEBF473A61 /* logo@2x.png in Resources */,
-				580D7B4B231E4F0E9CB942F8 /* logo@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,20 +320,16 @@
 				CLANG_MODULES_AUTOLINK = NO;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Groceries/Groceries-Prefix.pch";
+				GCC_PREFIX_HEADER = "groceries/groceries-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"DEBUG=1",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/Groceries/Groceries-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/groceries/groceries-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = Groceries;
+				PRODUCT_NAME = groceries;
 				VALID_ARCHS = "armv7 arm64";
 				WRAPPER_EXTENSION = app;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios\"",
-				);
 			};
 			name = Debug;
 		};
@@ -375,23 +342,19 @@
 				CLANG_MODULES_AUTOLINK = NO;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Groceries/Groceries-Prefix.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/Groceries/Groceries-Info.plist";
+				GCC_PREFIX_HEADER = "groceries/groceries-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/groceries/groceries-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = Groceries;
+				PRODUCT_NAME = groceries;
 				VALID_ARCHS = "armv7 arm64";
 				WRAPPER_EXTENSION = app;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios\"",
-				);
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		858B832918CA111C00AB12DE /* Build configuration list for PBXProject "Groceries" */ = {
+		858B832918CA111C00AB12DE /* Build configuration list for PBXProject "groceries" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				858B835818CA111C00AB12DE /* Debug */,
@@ -400,7 +363,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		858B843018CA22B800AB12DE /* Build configuration list for PBXNativeTarget "Groceries" */ = {
+		858B843018CA22B800AB12DE /* Build configuration list for PBXNativeTarget "groceries" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				858B843118CA22B800AB12DE /* Debug */,
