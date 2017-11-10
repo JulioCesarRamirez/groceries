@@ -5,11 +5,18 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 858B833A18CA111C00AB12DE /* InfoPlist.strings */; };
 		CD45EE7C18DC2D5800FB50C0 /* app in Resources */ = {isa = PBXBuildFile; fileRef = CD45EE7A18DC2D5800FB50C0 /* app */; };
 		CD62955D1BB2678900AE3A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62955C1BB2678900AE3A93 /* main.m */; };
+		30BDA17BE8B6476BAA689573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E302B1699B614914B59799BF /* Assets.xcassets */; };
+		654DCFCF1B2C46BA8B3C5C26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75BF148AA75F42E68DB93C95 /* LaunchScreen.storyboard */; };
+		2126C3B607154678B1649898 /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1A78453C0B00479B92E43AAC /* build.xcconfig */; };
+		B112F5728D6E4A2AB2DF114A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 36FCC6AD0917408A9896CD7A /* logo.png */; };
+		2CE40BA8089C403C8562FCF3 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 214C7B2CBD25447292C09C15 /* logo@2x.png */; };
+		B190D6B8299A473BBAE561E0 /* logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09853864FD1C4682A3C678BC /* logo@3x.png */; };
+		2E50A17F5D944A70B4CE0399 /* TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EBF44FEAF2D4E72B8FCE05D /* TNSWidgets.framework */; };
+		0B5DC6CE2C9748219EF20B09 /* TNSWidgets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2EBF44FEAF2D4E72B8FCE05D /* TNSWidgets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -19,6 +26,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				0B5DC6CE2C9748219EF20B09 /* TNSWidgets.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -36,6 +44,13 @@
 		CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-debug.xcconfig"; sourceTree = "<group>"; };
 		CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-release.xcconfig"; sourceTree = "<group>"; };
 		CDF4743E1BA4855C0087EA85 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
+		E302B1699B614914B59799BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = Assets.xcassets; path = "groceries/Resources/Assets.xcassets"; sourceTree = "<group>"; fileEncoding = 4; };
+		75BF148AA75F42E68DB93C95 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = LaunchScreen.storyboard; path = "groceries/Resources/LaunchScreen.storyboard"; sourceTree = "<group>"; fileEncoding = 4; };
+		1A78453C0B00479B92E43AAC /* build.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = build.xcconfig; path = "groceries/Resources/build.xcconfig"; sourceTree = "<group>"; fileEncoding = 4; };
+		36FCC6AD0917408A9896CD7A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = "groceries/Resources/logo.png"; sourceTree = "<group>"; };
+		214C7B2CBD25447292C09C15 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo@2x.png"; path = "groceries/Resources/logo@2x.png"; sourceTree = "<group>"; };
+		09853864FD1C4682A3C678BC /* logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo@3x.png"; path = "groceries/Resources/logo@3x.png"; sourceTree = "<group>"; };
+		2EBF44FEAF2D4E72B8FCE05D /* TNSWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSWidgets.framework; path = "$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E50A17F5D944A70B4CE0399 /* TNSWidgets.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +87,7 @@
 		858B833018CA111C00AB12DE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2EBF44FEAF2D4E72B8FCE05D /* TNSWidgets.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -101,6 +118,12 @@
 		E070579D1B39A9D000214BF1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E302B1699B614914B59799BF /* Assets.xcassets */,
+				75BF148AA75F42E68DB93C95 /* LaunchScreen.storyboard */,
+				1A78453C0B00479B92E43AAC /* build.xcconfig */,
+				36FCC6AD0917408A9896CD7A /* logo.png */,
+				214C7B2CBD25447292C09C15 /* logo@2x.png */,
+				09853864FD1C4682A3C678BC /* logo@3x.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -136,7 +159,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = TNS;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 500;
 				ORGANIZATIONNAME = Telerik;
 			};
 			buildConfigurationList = 858B832918CA111C00AB12DE /* Build configuration list for PBXProject "groceries" */;
@@ -163,6 +186,12 @@
 			files = (
 				CD45EE7C18DC2D5800FB50C0 /* app in Resources */,
 				858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */,
+				30BDA17BE8B6476BAA689573 /* Assets.xcassets in Resources */,
+				654DCFCF1B2C46BA8B3C5C26 /* LaunchScreen.storyboard in Resources */,
+				2126C3B607154678B1649898 /* build.xcconfig in Resources */,
+				B112F5728D6E4A2AB2DF114A /* logo.png in Resources */,
+				2CE40BA8089C403C8562FCF3 /* logo@2x.png in Resources */,
+				B190D6B8299A473BBAE561E0 /* logo@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +359,10 @@
 				PRODUCT_NAME = groceries;
 				VALID_ARCHS = "armv7 arm64";
 				WRAPPER_EXTENSION = app;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios\"",
+				);
 			};
 			name = Debug;
 		};
@@ -348,6 +381,10 @@
 				PRODUCT_NAME = groceries;
 				VALID_ARCHS = "armv7 arm64";
 				WRAPPER_EXTENSION = app;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios\"",
+				);
 			};
 			name = Release;
 		};
